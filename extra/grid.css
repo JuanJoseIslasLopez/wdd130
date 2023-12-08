@@ -1,0 +1,86 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 6em;    
+  }
+  
+  .grid1 h1 {
+    
+  }
+  
+  .grid2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 6em; 
+  }
+  .grid2 h2 {
+    
+  }
+  .grid3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 6em; 
+  }
+  
+  .grid3 h3 {
+    
+  }
+  
+  .grid4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 6em; 
+  }
+  
+  .grid4 h2 {
+    
+  }
+  
+  section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 6em; 
+  }
+  
+  section h2 {
+    
+  }
+  
+  form {
+    
+  }
+  
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    grid-column: 1/7;
+    Grid-gap: 0 1em;
+    align-items: center;
+  }
+  
+  label {
+    
+  }
+  
+  input {
+    
+  }
+  
+  button {
+    
+  }
+  
+  section > div {
+    
+  }
